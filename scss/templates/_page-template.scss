@@ -1,0 +1,19 @@
+// Vendors -> Todos los archivos que extraemos de otros repositorios o de colaboradores externos
+
+// Global -> todo aquello que nos sirve para construir los estilos pero que no es parte del estilo como tal
+
+@import "../global/cleaner";
+@import "../global/functions";
+@import "../global/grids";
+@import "../global/mixins";
+@import "../global/variables";
+
+// Base -> Cualquier cosa relacionada tipogrfias, imagenes y demas contenido HTML
+
+@import "../base/typography";
+
+// Layout -> Las partes grandes reutilizables del proyecto. Para las pages unicamente utilizaremos el archivo pages.
+
+@import "../layout/header";
+@import "../layout/footer";
+@import "../layout/page";

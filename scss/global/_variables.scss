@@ -1,0 +1,77 @@
+// Colores
+
+// Puedes encontrar los colores en https://color.adobe.com/es/playes%20grey%20scale-color-theme-18284700 (escala de grises) https://color.adobe.com/es/yes-claro-color-theme-18350803 (Colores)
+
+// Escala de grises
+
+// Color Theme Swatches in Hex //
+$playes-grey-scale-1-hex: #00192e;
+$playes-grey-scale-2-hex: #2c4058;
+$playes-grey-scale-3-hex: #586b86;
+$playes-grey-scale-4-hex: #879ab7;
+$playes-grey-scale-5-hex: #b9ccea;
+
+// Color Theme Swatches in RGBA //
+$playes-grey-scale-1-rgba: rgba(0, 25, 46, 1);
+$playes-grey-scale-2-rgba: rgba(44, 64, 88, 1);
+$playes-grey-scale-3-rgba: rgba(88, 107, 134, 1);
+$playes-grey-scale-4-rgba: rgba(135, 154, 183, 1);
+$playes-grey-scale-5-rgba: rgba(185, 204, 234, 1);
+
+//* Color Theme Swatches in HSLA *//
+$playes-grey-scale-1-hsla: hsla(207, 100, 9, 1);
+$playes-grey-scale-2-hsla: hsla(212, 33, 25, 1);
+$playes-grey-scale-3-hsla: hsla(215, 20, 43, 1);
+$playes-grey-scale-4-hsla: hsla(216, 25, 62, 1);
+$playes-grey-scale-5-hsla: hsla(216, 53, 82, 1);
+
+// Colores de Playes Brand
+
+//* Color Theme Swatches in Hex *//
+$yes-claro-1-hex: #0058a2;
+$yes-claro-2-hex: #0082c0;
+$yes-claro-3-hex: #00a8bf;
+$yes-claro-4-hex: #00caa4;
+$yes-claro-5-hex: #89e682;
+
+//* Color Theme Swatches in RGBA *//
+$yes-claro-1-rgba: rgba(0, 88, 162, 1);
+$yes-claro-2-rgba: rgba(0, 130, 192, 1);
+$yes-claro-3-rgba: rgba(0, 168, 191, 1);
+$yes-claro-4-rgba: rgba(0, 202, 164, 1);
+$yes-claro-5-rgba: rgba(137, 230, 130, 1);
+
+//* Color Theme Swatches in HSLA *//
+$yes-claro-1-hsla: hsla(207, 100, 31, 1);
+$yes-claro-2-hsla: hsla(199, 100, 37, 1);
+$yes-claro-3-hsla: hsla(187, 100, 37, 1);
+$yes-claro-4-hsla: hsla(168, 100, 39, 1);
+$yes-claro-5-hsla: hsla(115, 66, 70, 1);
+
+// direccion de los fondos de las pantllas
+
+$images-folder: "../../assets/images/backgrounds/";
+
+// brand colores
+
+$youtube-color: #ff0000;
+$discord-color: #7289da;
+$tiktok-color: #000000;
+$tiktok-color-1-border: #7289da;
+$tiktok-color-2-border: #ee1d52;
+$instagram-color: linear-gradient(
+  45deg,
+  #405de6,
+  #5851db,
+  #833ab4,
+  #c13584,
+  #e1306c,
+  #fd1d1d
+);
+$facebook-color: #1778f2;
+$twitter-color: #1da1f2;
+$web-color: $yes-claro-3-hex;
+$spotify-color: #1db954;
+$google-black-color: #4d4d4d;
+$github-color: #211f1f;
+$twitch-color: #6441a5;

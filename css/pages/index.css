@@ -1,0 +1,77 @@
+/* Cleaner */
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Typografy.scss */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4.6rem;
+  font-family: "Teko", sans-serif;
+  line-height: 5.52rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-family: "Teko", sans-serif;
+  line-height: 3.84rem;
+}
+
+h3, p,
+a,
+i {
+  font-size: 2.8rem;
+  font-family: "Teko", sans-serif;
+  line-height: 3.36rem;
+}
+
+p {
+  font-size: 2.4rem;
+  font-family: "Teko", sans-serif;
+  line-height: 2.88rem;
+}
+
+a {
+  font-size: 2.4rem;
+  font-family: "Teko", sans-serif;
+  line-height: 2.88rem;
+}
+
+h1,
+h2 {
+  text-shadow: white 2px 0px 0px, white 1.75517px 0.958851px 0px, white 1.0806px 1.68294px 0px, white 0.141474px 1.99499px 0px, white -0.832294px 1.81859px 0px, white -1.60229px 1.19694px 0px, white -1.97998px 0.28224px 0px, white -1.87291px -0.701566px 0px, white -1.30729px -1.5136px 0px, white -0.421592px -1.95506px 0px, white 0.567324px -1.91785px 0px, white 1.41734px -1.41108px 0px, white 1.92034px -0.558831px 0px;
+  color: #00a8bf;
+  font-weight: 600;
+}
+
+h3, p,
+a,
+i {
+  color: white;
+  font-family: "Teko", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p,
+a,
+i {
+  font-weight: 300;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  padding: 5vh 5%;
+  scroll-behavior: smooth;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00192e), color-stop(#002442), color-stop(#003057), color-stop(#003c6d), color-stop(#004883), color-stop(#015492), color-stop(#0160a0), color-stop(#006daf), color-stop(#007db7), color-stop(#008cbc), color-stop(#009abe), to(#00a8bf));
+  background-image: linear-gradient(to right bottom, #00192e, #002442, #003057, #003c6d, #004883, #015492, #0160a0, #006daf, #007db7, #008cbc, #009abe, #00a8bf);
+}

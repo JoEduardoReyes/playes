@@ -1,0 +1,69 @@
+/* Typografy.scss */
+
+//Font Family importada de https://fonts.google.com/specimen/Teko
+
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap");
+
+$font-family-main: "Teko", sans-serif;
+
+$font-color-white: $playes-grey-scale-5-hex;
+$font-color-blue: $yes-claro-3-hex;
+
+// Trazo para los headings, estmamos usando https://owumaro.github.io/text-stroke-generator/ para generar este trazo ya que no hay una forma nativa de CSS
+
+$text-border: rgb(255, 255, 255) 2px 0px 0px,
+  rgb(255, 255, 255) 1.75517px 0.958851px 0px,
+  rgb(255, 255, 255) 1.0806px 1.68294px 0px,
+  rgb(255, 255, 255) 0.141474px 1.99499px 0px,
+  rgb(255, 255, 255) -0.832294px 1.81859px 0px,
+  rgb(255, 255, 255) -1.60229px 1.19694px 0px,
+  rgb(255, 255, 255) -1.97998px 0.28224px 0px,
+  rgb(255, 255, 255) -1.87291px -0.701566px 0px,
+  rgb(255, 255, 255) -1.30729px -1.5136px 0px,
+  rgb(255, 255, 255) -0.421592px -1.95506px 0px,
+  rgb(255, 255, 255) 0.567324px -1.91785px 0px,
+  rgb(255, 255, 255) 1.41734px -1.41108px 0px,
+  rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+// Body font para accesibilidad
+
+html {
+  font-size: 62.5%;
+}
+
+//headings
+
+$font-sizes: (
+  h1: 4.6rem,
+  h2: 3.2rem,
+  h3: 2.8rem,
+  p: 2.4rem,
+  a: 2.4rem,
+);
+
+@each $heading, $size in $font-sizes {
+  #{$heading} {
+    font-size: $size;
+    font-family: $font-family-main;
+    line-height: $size * 1.2;
+  }
+}
+
+h1,
+h2 {
+  text-shadow: $text-border;
+  color: $font-color-blue;
+  font-weight: 600;
+}
+
+h3 {
+  color: white;
+  font-family: $font-family-main;
+  text-decoration: none;
+  font-weight: 500;
+}
+p,
+a,
+i {
+  @extend h3;
+  font-weight: 300;
+}

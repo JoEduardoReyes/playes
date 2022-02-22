@@ -1,0 +1,10 @@
+include _mixins.pug
+include _variables.pug
+
+doctype html
+html(lang="en")
+  include ../lib/_head.pug
+    block headTitleStyle
+    block headTitleAndStyleToPage
+  body
+    block bodyContent

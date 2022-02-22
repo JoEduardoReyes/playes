@@ -1,0 +1,7 @@
+mixin social-block(title, classes1, classes2, long_title, description, link)
+  div.link-wrapper(class=title)
+    a.link(href=link target="_blank")
+      i(class=classes1 class=classes2)
+      .link-description
+        h3=long_title
+        p=description

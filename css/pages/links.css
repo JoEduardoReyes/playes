@@ -1,0 +1,184 @@
+/* Cleaner */
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Typografy.scss */
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 4.6rem;
+  font-family: "Teko", sans-serif;
+  line-height: 5.52rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-family: "Teko", sans-serif;
+  line-height: 3.84rem;
+}
+
+h3, p,
+a,
+i {
+  font-size: 2.8rem;
+  font-family: "Teko", sans-serif;
+  line-height: 3.36rem;
+}
+
+p {
+  font-size: 2.4rem;
+  font-family: "Teko", sans-serif;
+  line-height: 2.88rem;
+}
+
+a {
+  font-size: 2.4rem;
+  font-family: "Teko", sans-serif;
+  line-height: 2.88rem;
+}
+
+h1,
+h2 {
+  text-shadow: white 2px 0px 0px, white 1.75517px 0.958851px 0px, white 1.0806px 1.68294px 0px, white 0.141474px 1.99499px 0px, white -0.832294px 1.81859px 0px, white -1.60229px 1.19694px 0px, white -1.97998px 0.28224px 0px, white -1.87291px -0.701566px 0px, white -1.30729px -1.5136px 0px, white -0.421592px -1.95506px 0px, white 0.567324px -1.91785px 0px, white 1.41734px -1.41108px 0px, white 1.92034px -0.558831px 0px;
+  color: #00a8bf;
+  font-weight: 600;
+}
+
+h3, p,
+a,
+i {
+  color: white;
+  font-family: "Teko", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p,
+a,
+i {
+  font-weight: 300;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  padding: 5vh 5%;
+  scroll-behavior: smooth;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#00192e), color-stop(#002442), color-stop(#003057), color-stop(#003c6d), color-stop(#004883), color-stop(#015492), color-stop(#0160a0), color-stop(#006daf), color-stop(#007db7), color-stop(#008cbc), color-stop(#009abe), to(#00a8bf));
+  background-image: linear-gradient(to right bottom, #00192e, #002442, #003057, #003c6d, #004883, #015492, #0160a0, #006daf, #007db7, #008cbc, #009abe, #00a8bf);
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+  grid-template-columns: 100%;
+  -ms-grid-rows: 320px 1fr;
+  grid-template-rows: 320px 1fr;
+  grid-auto-flow: row;
+  min-width: 320px;
+  max-width: 420px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+header img {
+  width: 70%;
+}
+header a {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  cursor: pointer;
+}
+header a i {
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+  grid-template-columns: 100%;
+  gap: 18px;
+  grid-auto-flow: row;
+}
+main .link-wrapper {
+  border-radius: 20px;
+  border: 3px solid white;
+}
+main .link-wrapper .link {
+  -webkit-padding-start: 20px;
+          padding-inline-start: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 78px;
+}
+main .link-wrapper .link i {
+  font-size: 6rem;
+  width: 80px;
+}
+main .twitch {
+  background-color: #6441a5;
+}
+main .instagram {
+  background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+main .facebook {
+  background-color: #1778f2;
+}
+main .youtube {
+  background-color: #ff0000;
+}
+main .tiktok {
+  background-color: #000000;
+  border-top-color: #7289da;
+  border-left-color: #7289da;
+  border-bottom-color: #ee1d52;
+  border-right-color: #ee1d52;
+}
+main .discord {
+  background-color: #7289da;
+}
+main .twitter {
+  background-color: #1da1f2;
+}
+main .github {
+  background-color: #211f1f;
+}
+main .website {
+  background-color: #00a8bf;
+}
+main .spotify {
+  background-color: #1db954;
+}
+main .google-drive {
+  background-color: #4d4d4d;
+}

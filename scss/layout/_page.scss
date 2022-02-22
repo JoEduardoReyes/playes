@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  padding: 5vh 5%;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(
+    to right bottom,
+    #00192e,
+    #002442,
+    #003057,
+    #003c6d,
+    #004883,
+    #015492,
+    #0160a0,
+    #006daf,
+    #007db7,
+    #008cbc,
+    #009abe,
+    #00a8bf
+  );
+}
